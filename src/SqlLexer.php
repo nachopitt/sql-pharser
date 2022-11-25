@@ -1,6 +1,6 @@
 <?php
 
-namespace nachopitt\SqlPharser;
+namespace Nachopitt\SqlPharser;
 
 use Doctrine\Common\Lexer\AbstractLexer;
 
