@@ -1,4 +1,15 @@
 {
+    "name": "nachopitt/sql-pharser",
+    "type": "project",
+    "homepage": "https://github.com/nachopitt/sql-pharser",
+    "keywords": ["database","sql","mysql","parser","lexer"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Ignacio Zamora",
+        "role": "Developer"
+      }
+    ],
     "require": {
         "doctrine/lexer": "^1.2"
     }
