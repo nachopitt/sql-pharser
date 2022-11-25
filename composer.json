@@ -1,0 +1,5 @@
+{
+    "require": {
+        "doctrine/lexer": "^1.2"
+    }
+}
