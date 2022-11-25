@@ -15,7 +15,7 @@ class SqlParser
     {
         // Parse & build AST
         while($this->lexer->moveNext()) {
-            var_dump($this->lexer->lookahead);
+            echo str_pad($this->lexer->lookahead['type'], 3, " ", STR_PAD_LEFT) . ' - ' . $this->lexer->lookahead['value'] . "\r\n";
         }
     }
 }
